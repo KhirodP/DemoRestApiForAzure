@@ -31,6 +31,11 @@ class UserController {
 		return  repository.findAll();
 	}
 	
+	@GetMapping("/message")
+	public String  getMessage() {
+		return  "welcome to Azure deployment";
+	}
+	
 	
 
 }
